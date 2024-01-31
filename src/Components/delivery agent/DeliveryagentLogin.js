@@ -4,16 +4,18 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
+import { Link } from 'react-router-dom';                       
 
 function DeliveryagentLogin() {
   return (
-    <div>
+    <div className='delivery_login'>
+    <h5 className='text-center'>Delivery Agent Login</h5>
     <Container>
     <Row className="delivery_login_main">
       <Col>
         <img
           className="w-75 bg-dark"
-          src="https://cdn.dribbble.com/users/1024957/screenshots/6800596/01.gif"
+          src="https://static.vecteezy.com/system/resources/previews/022/650/933/non_2x/mix-icon-for-wholesale-vector.jpg"
           alt="no img"
         ></img>
       </Col>
@@ -29,7 +31,13 @@ function DeliveryagentLogin() {
         <FloatingLabel controlId="floatingPassword" label="Password">
           <Form.Control type="password" placeholder="Password" />
         </FloatingLabel>
+        <Link to="#" className="forgotpassword" style={{float:"right"}} >forgot password</Link>
+
+        <Link to="/deliveryagenthome" className="btn btn-dark mt-5"> Login</Link>
+
       </Col>
+      <label className='text-center'>not a member? <Link to={'/deliveryagentregistration'}>Sign up now</Link></label>
+
     </Row>
   </Container>
     </div>

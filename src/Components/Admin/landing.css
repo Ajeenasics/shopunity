@@ -1,0 +1,22 @@
+.landingloginbtn{
+    outline: none;
+    padding: 4%;
+    border-radius: 12px;
+}
+.navshadow{
+    background-image: url("http://wallpapercave.com/wp/wp1877577.jpg");
+    height: 750px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.shopunitytittle{
+    position: absolute;
+    right:60%;
+    top:450px;
+    font-size: 65px;
+    left: 15%;
+}
+.shopunitytittle_main{
+    position: relative;
+
+}

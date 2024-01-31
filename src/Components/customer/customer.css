@@ -1,0 +1,29 @@
+.customer_register_main{
+    border:1px solid rgb(168, 173, 179) ;
+    border-radius: 8px;
+    padding: 2%;
+  }
+  .customer_register_form{
+      padding: 2%;
+      margin: 0 8%;
+  }
+  
+  .customer_register{
+    padding-top: 5%;
+  }
+  .customer_login{
+    padding-top: 5%;
+  }
+  .customer_login_main{
+    border:1px solid rgb(168, 173, 179) ;
+    border-radius: 8px;
+    padding: 2%;
+  }
+  .customer_login_form{
+    padding: 6%;
+    margin: 0 8%;
+  }
+  
+  .customer_register_img{
+    padding-top: 30%;
+  }

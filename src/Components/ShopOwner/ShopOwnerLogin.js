@@ -6,9 +6,11 @@ import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
 import './shopowner.css'
 import img from '../../images/store2.png'
+import { Link } from 'react-router-dom';                       
 function ShopOwnerLogin() {
   return (
     <div className='shop_login'>
+    <h5 className='text-center'>Shop owner Login</h5>
     <Container>
     <Row className="shop_login_main">
       <Col>
@@ -19,7 +21,7 @@ function ShopOwnerLogin() {
         ></img>
       </Col>
 
-      <Col className=" shop_login_form bg-secondary">
+      <Col className=" shop_login_form">
         <FloatingLabel
           controlId="floatingInput"
           label="Email address"
@@ -30,7 +32,13 @@ function ShopOwnerLogin() {
         <FloatingLabel controlId="floatingPassword" label="Password">
           <Form.Control type="password" placeholder="Password" />
         </FloatingLabel>
+        <Link to="#" className="forgotpassword" style={{float:"right"}} >forgot password</Link>
+
+        <Link to="/shopownerhome" className="btn btn-dark mt-5"> Login</Link>
+
       </Col>
+      <label className='text-center'>not a member? <Link to={'/shopownerregistration'}>Sign up now</Link></label>
+
     </Row>
   </Container>
     </div>

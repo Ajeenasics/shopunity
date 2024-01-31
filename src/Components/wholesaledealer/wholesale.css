@@ -1,24 +1,35 @@
-.wholesale_dealer_register_main{
-  border:1px solid rgb(168, 173, 179) ;
+.wholesale_dealer_register_main {
+  border: 1px solid rgb(168, 173, 179);
   border-radius: 8px;
   padding: 2%;
 }
-.wholesale_dealer_register_form{
-    padding: 3%;
+.wholesale_dealer_register_form {
+  padding: 2%;
+  margin: 0 8%;
 }
-.Wholesale_dealer_register{
+
+.Wholesale_dealer_register {
+  padding-top: 2%;
+}
+.wholesale_dealer_login {
   padding-top: 5%;
 }
-.wholesale_dealer_login{
-  padding-top: 5%;
-}
-.wholesale_dealer_login_main{
-  border:1px solid rgb(168, 173, 179) ;
+.wholesale_dealer_login_main {
+  border: 1px solid rgb(168, 173, 179);
   border-radius: 8px;
   padding: 2%;
 }
-.wholesale_dealer_login_form{
-  padding: 3%;
-
+.wholesale_dealer_login_form {
+  padding: 8%;
+  margin: 0 8%;
 }
 
+.borderstyle {
+  border: none;
+  outline: none;
+}
+.forgotpassword {
+  text-decoration: none;
+  color: black;
+  margin: 2% 0px;
+}

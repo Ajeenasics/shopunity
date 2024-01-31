@@ -1,0 +1,27 @@
+.delivery_login_main{
+    border:1px solid rgb(168, 173, 179) ;
+    border-radius: 8px;
+    padding: 2%;
+  }
+  .delivery_login_form{
+      padding: 2%;
+      margin: 0 8%;
+  }
+  
+  .delivery_login{
+    padding-top: 5%;
+  }
+  .delivery_agent_register{
+    padding-top: 5%;
+  }
+    .delivery_agent_register_main{
+    border:1px solid rgb(168, 173, 179) ;
+    border-radius: 8px;
+    padding: 2%;
+  }
+  .delivery_agent_register_form{
+    padding: 2%;
+    margin: 0 8%;
+  }
+  
+  

@@ -1,0 +1,15 @@
+
+  .Admin_login{
+    padding-top: 5%;
+  }
+  .Admin_login_main{
+    border:1px solid rgb(168, 173, 179) ;
+    border-radius: 8px;
+    padding: 2%;
+  }
+  .Admin_login_form{
+    padding: 6%;
+    margin: 0 8%;
+  }
+  
+  

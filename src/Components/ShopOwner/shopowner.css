@@ -1,15 +1,29 @@
 .shop_register_main{
-    border-radius: 6px;
-    border: 1px solid rgb(212, 205, 205);
-    margin-top: 5%;
-}
-.shop_register{
+    border:1px solid rgb(168, 173, 179) ;
+    border-radius: 8px;
+    padding: 2%;
+  }
+  .shop_register_form{
+      padding: 2%;
+      margin: 0 8%;
+  }
+  .shop_register_main img{
+    margin-top: 30%;
+  }
+  .shop_register{
     padding-top: 5%;
-}
-.shop_register_form{
-
-}
-
-.shop_login_main{
-    
-}
+  }
+  .shop_login{
+    padding-top: 5%;
+  }
+  .shop_login_main{
+    border:1px solid rgb(168, 173, 179) ;
+    border-radius: 8px;
+    padding: 2%;
+  }
+  .shop_login_form{
+    padding: 2%;
+    margin: 0 8%;
+  }
+  
+  
