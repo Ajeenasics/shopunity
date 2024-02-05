@@ -8,6 +8,7 @@
     height: 750px;
 background-repeat: no-repeat;
 background-size: cover;
+
 }
 .shopunitytittle{
     position: absolute;
@@ -19,4 +20,20 @@ background-size: cover;
 .shopunitytittle_main{
     position: relative;
 
+}
+ a{
+    text-decoration: none;
+    color: black;
+}
+#navfixed{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+#contact{
+    padding: 3% 20%;
 }
