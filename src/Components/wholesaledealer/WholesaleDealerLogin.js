@@ -10,12 +10,12 @@ import { Link } from "react-router-dom";
 
 function WholesaleDealerLogin() {
   return (
-    <div className="wholesale_dealer_login">
-    <h5 className='text-center'>Wholesale dealer Login</h5>
+    <div className="wholesale_dealer_login ">
+    <h5 className='text-center mt-5'>Wholesale dealer Login</h5>
       <Container>
         <Row className="wholesale_dealer_login_main">
           <Col>
-            <img className="w-100" src={img} alt="no img"></img>
+            
           </Col>
 
           <Col className=" wholesale_dealer_login_form">

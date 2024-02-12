@@ -9,15 +9,11 @@ import { Link } from 'react-router-dom';
 function DeliveryagentLogin() {
   return (
     <div className='delivery_login'>
-    <h5 className='text-center'>Delivery Agent Login</h5>
+    <h5 className='text-center mt-5'>Delivery Agent Login</h5>
     <Container>
     <Row className="delivery_login_main">
       <Col>
-        <img
-          className="w-75 bg-dark"
-          src="https://static.vecteezy.com/system/resources/previews/022/650/933/non_2x/mix-icon-for-wholesale-vector.jpg"
-          alt="no img"
-        ></img>
+       
       </Col>
 
       <Col className=" delivery_login_form">

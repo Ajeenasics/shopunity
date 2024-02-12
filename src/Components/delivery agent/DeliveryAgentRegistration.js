@@ -15,34 +15,9 @@ function DeliveryAgentRegistration() {
   };
   return (
     <div className="delivery_agent_register">
-      <h5 className="text-center">Delivery Agent Register</h5>
+      <h5 className="text-center mt-5">Delivery Agent Register</h5>
       <Container>
         <Row className="delivery_agent_register_main">
-          <Col>
-            <img className="w-100 mb-5" src={img} alt="no img"></img>
-            <FloatingLabel
-              controlId="floatingInput"
-              label="Delivery Areas"
-              className="mb-3"
-            >
-              <Form.Control type="text" placeholder="name@example.com" />
-            </FloatingLabel>
-            <FloatingLabel
-              controlId="floatingPassword"
-              label="Vehicle Type"
-              className="mb-3"
-            >
-              <Form.Control type="text" placeholder="Password" />
-            </FloatingLabel>
-            <FloatingLabel
-              controlId="floatingInput"
-              label="Delivery Areas"
-              className="mb-3"
-            >
-              <Form.Control type="text" placeholder="name@example.com" />
-            </FloatingLabel>
-          </Col>
-
           <Col className=" delivery_agent_register_form">
             <FloatingLabel
               controlId="floatingInput"
@@ -79,7 +54,29 @@ function DeliveryAgentRegistration() {
             >
               <Form.Control type="password" placeholder="Password" />
             </FloatingLabel>
-
+          </Col>
+          <Col>
+            <FloatingLabel
+              controlId="floatingInput"
+              label="Delivery Areas"
+              className="mb-3 mt-4"
+            >
+              <Form.Control type="text" placeholder="name@example.com" />
+            </FloatingLabel>
+            <FloatingLabel
+              controlId="floatingPassword"
+              label="Vehicle Type"
+              className="mb-3"
+            >
+              <Form.Control type="text" placeholder="Password" />
+            </FloatingLabel>
+            <FloatingLabel
+              controlId="floatingInput"
+              label="Delivery Areas"
+              className="mb-3"
+            >
+              <Form.Control type="text" placeholder="name@example.com" />
+            </FloatingLabel>
             <FloatingLabel
               controlId="floatingInput"
               label="Address"

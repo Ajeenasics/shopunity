@@ -15,6 +15,8 @@ import DeliveryagentHomepage from './Components/delivery agent/DeliveryagentHome
 import CustomerHomePage from './Components/customer/CustomerHomePage';
 import LandingPage from './Components/Admin/LandingPage';
 import Footer from './Components/Footer';
+import Navigation from './Components/Navigation';
+
 
 function App() {
   return (
@@ -22,26 +24,24 @@ function App() {
     <Routes>
     <Route path='/' element={[<LandingPage/>,<Footer/>]}/>
 
-    <Route path='/wholesaledealerregistration' element={[<WholesaleDealerRegistration/>,<Footer/>]} />
-    <Route path='/wholesaledealerlogin' element={[<WholesaleDealerLogin/>,<Footer/>]} />
+    <Route path='/wholesaledealerregistration' element={[<Navigation/>,<WholesaleDealerRegistration/>,<Footer/>]} />
+    <Route path='/wholesaledealerlogin' element={[<Navigation/>,<WholesaleDealerLogin/>,<Footer/>]} />
 
-    <Route path='/customerregistration' element={[<CustomerRegistration/>,<Footer/>]} />
-    <Route path='/customerlogin' element={[<CustomerLogin/>,<Footer/>]} />
+    <Route path='/customerregistration' element={[<Navigation/>,<CustomerRegistration/>,<Footer/>]} />
+    <Route path='/customerlogin' element={[<Navigation/>,<CustomerLogin/>,<Footer/>]} />
 
-    <Route path='/deliveryagentregistration' element={[<DeliveryAgentRegistration/>,<Footer/>]} />
-    <Route path='/deliveryagentlogin' element={[<DeliveryagentLogin/>,<Footer/>]} />
+    <Route path='/deliveryagentregistration' element={[<Navigation/>,<DeliveryAgentRegistration/>,<Footer/>]} />
+    <Route path='/deliveryagentlogin' element={[<Navigation/>,<DeliveryagentLogin/>,<Footer/>]} />
 
-    <Route path='/shopownerregistration' element={[<ShopOwnerRegistration/>,<Footer/>]} />
-    <Route path='/shopownerlogin' element={[<ShopOwnerLogin/>,<Footer/>]} />
+    <Route path='/shopownerregistration' element={[<Navigation/>,<ShopOwnerRegistration/>,<Footer/>]} />
+    <Route path='/shopownerlogin' element={[<Navigation/>,<ShopOwnerLogin/>,<Footer/>]} />
 
-    <Route path='/Admin' element={[<AdminLogin/>,<Footer/>]} />
+    <Route path='/Admin' element={[<Navigation/>,<AdminLogin/>,<Footer/>]} />
 
-    <Route path='/wholesaledealerhome' element={[<WholesaleDealerHomepage/>,<Footer/>]} />
-    <Route path='/shopownerhome' element={[<ShopownerHomepage/>,<Footer/>]} />
-    <Route path='/deliveryagenthome' element={[<DeliveryagentHomepage/>,<Footer/>]} />
-    <Route path='/customerhome' element={[<CustomerHomePage/>,<Footer/>]} />
-    <Route path='/footer' element={<Footer/>} />
-
+    <Route path='/wholesaledealerhome' element={[<Navigation/>,<WholesaleDealerHomepage/>,<Footer/>]} />
+    <Route path='/shopownerhome' element={[<Navigation/>,<ShopownerHomepage/>,<Footer/>]} />
+    <Route path='/deliveryagenthome' element={[<Navigation/>,<DeliveryagentHomepage/>,<Footer/>]} />
+    <Route path='/customerhome' element={[<Navigation/>,<CustomerHomePage/>,<Footer/>]} />
     </Routes>
      
     </BrowserRouter>

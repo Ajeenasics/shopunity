@@ -14,12 +14,10 @@ function ShopOwnerRegistration() {
   };
   return (
     <div className="shop_register">
-      <h5 className="text-center"> Shop Owner Register</h5>
+      <h5 className="text-center mt-5"> Shop Owner Register</h5>
       <Container>
         <Row className="shop_register_main">
-          <Col>
-            <img className="w-100" src={img} alt="no img"></img>
-          </Col>
+          
 
           <Col className="shop_register_form">
             <FloatingLabel
@@ -71,6 +69,8 @@ function ShopOwnerRegistration() {
               {" "}
               Register
             </button>
+          </Col>
+          <Col>
           </Col>
         </Row>
       </Container>

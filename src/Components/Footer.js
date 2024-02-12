@@ -3,11 +3,15 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/esm/Container";
 import "./footer.css";
-
+import { FaInstagramSquare } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaTwitter } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 function Footer() {
+  
   return (
     <div className="footer">
-      <div className="contactfooter mt-5">
+      <div className="contactfooter">
         <Container>
           <Row>
             <Col>
@@ -16,10 +20,10 @@ function Footer() {
               <div className="mb-4">About</div>
               <h6>social Meadia</h6>
               <div className="footericons">
-                <i class="fa-brands fa-facebook"></i>{" "}
-                <i class="fa-brands fa-twitter"></i>{" "}
-                <i class="fa-brands fa-instagram"></i>{" "}
-                <i class="fa-brands fa-youtube"></i>
+             <FaInstagramSquare/> &nbsp;
+                <MdEmail/>&nbsp;
+                <FaTwitter/>&nbsp;
+                <FaFacebook/>&nbsp;
               </div>
             </Col>
             <Col>
@@ -43,7 +47,7 @@ function Footer() {
       <Container>
         <hr></hr>
       </Container>
-      <div className="text-center pb-5">      <div>Save Life App</div>
+      <div className="text-center pb-5">
       <div>Copyright &#169; shopunity.com | All right reserved</div>
 </div>
     </div>

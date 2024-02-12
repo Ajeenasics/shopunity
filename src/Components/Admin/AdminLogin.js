@@ -11,12 +11,10 @@ import { Link } from "react-router-dom";
 function AdminLogin() {
   return (
     <div className="Admin_login text-center">
-      <h5> Admin Login</h5>
+      <h5 className=" mt-5"> Admin Login</h5>
       <Container>
         <Row className="Admin_login_main">
-          <Col>
-            <img className="w-100" src={img} alt="no img"></img>
-          </Col>
+          <Col></Col>
 
           <Col className=" Admin_login_form">
             <FloatingLabel

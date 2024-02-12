@@ -11,15 +11,11 @@ import { Link } from 'react-router-dom';
 function CustomerLogin() {
   return (
     <div className='customer_login'>
-    <h5 className='text-center'>Customer Login</h5>
+    <h5 className='text-center mt-5'>Customer Login</h5>
     <Container>
     <Row className="customer_login_main">
       <Col>
-        <img
-          className="w-100"
-          src={img}
-          alt="no img"
-        ></img>
+       
       </Col>
 
       <Col className=" customer_login_form">

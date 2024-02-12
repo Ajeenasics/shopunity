@@ -6,51 +6,51 @@ import { useNavigate } from "react-router-dom";
 import "./landing.css";
 import Form from "react-bootstrap/Form";
 import { Row, Col, Container } from "react-bootstrap";
+import logoimg from "../../images/LOGO SHOP UNITY-1.png"
 
 function LandingPage() {
   const navigate = useNavigate();
 
-  let Customer = () => {
-    navigate("/customerlogin");
-  };
+const Customer=()=>{
+  navigate("/customerlogin")
+}
+ 
   return (
     <div>
-      <div className="navshadow">
-        <Navbar
-          collapseOnSelect
-          expand="lg"
-          className=""
-          id="navfixed"
-        >
-          <div className="col-9">
-            <Navbar.Brand href="/" className="toggleimg"></Navbar.Brand>
-          </div>
-          <div className="col-2">
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="me-auto">
-                <a href="#home" className="navlink ms-3 me-3 text-dark">
-                  Home
-                </a>
-                <a href="#about " className="navlink text-dark">
-                  About
-                </a>
-                <a href="#contact" className="navlink ms-3 me-3 text-dark">
-                  Contact
-                </a>
-              </Nav>
+    <Navbar collapseOnSelect expand="lg" className="" id="navfixed">
+    <div className="col-9">
+      <Navbar.Brand href="/" className="toggleimg">
+        <img src={logoimg} className="w-25" alt="img"></img>
+      </Navbar.Brand>
+    </div>
+    <div className="col-2">
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="me-auto">
+          <a href="#home" className="navlink ms-3 me-3 text-dark">
+            Home
+          </a>
+          <a href="#about " className="navlink text-dark">
+            About
+          </a>
+          <a href="#contact" className="navlink ms-3 me-3 text-dark">
+            Contact
+          </a>
+        </Nav>
 
-              <Nav className="navlist">
-                <button onClick={Customer}
-                  className="btn btn-secondary ps-3 pe-3"
-                >
-                  {" "}
-                  Login{" "}
-                </button>
-              </Nav>
-            </Navbar.Collapse>
-          </div>
-        </Navbar>
+        <Nav className="navlist">
+          <button
+            onClick={Customer}
+            className="btn btn-secondary ps-3 pe-3"
+          >
+            {" "}
+            Login{" "}
+          </button>
+        </Nav>
+      </Navbar.Collapse>
+    </div>
+  </Navbar>
+      <div className="navshadow">
         <div id="home" className="shopunitytittle_main">
           <h5 className="shopunitytittle">Shop Unity</h5>
         </div>

@@ -14,44 +14,40 @@ function CustomerRegistration() {
   }
   return (
     <div className='customer_register'>
-    <h5 className='text-center'>Customer Register</h5>
+    <h5 className='text-center mt-5'>Customer Register</h5>
 
     <Container>
     <Row className="customer_register_main">
       <Col>
-        <img
-          className="customer_register_img w-100"
-          src={img}
-          alt="no img"
-        ></img>
+      <FloatingLabel
+      controlId="floatingInput"
+      label="Customer Name"
+      className="mb-3 mt-4"
+    >
+      <Form.Control type="text" placeholder="name@example.com" />
+    </FloatingLabel>
+    <FloatingLabel controlId="floatingPassword" label="Email ID"       className="mb-3"
+    >
+      <Form.Control type="email" placeholder="Password" />
+    </FloatingLabel>
+    <FloatingLabel
+    controlId="floatingPassword"
+    label="Contact"
+    className="mb-3"
+  >
+    <Form.Control type="text" placeholder="Password" />
+  </FloatingLabel>
+  <FloatingLabel
+    controlId="floatingPassword"
+    label="Password"
+    className="mb-3"
+  >
+    <Form.Control type="password" placeholder="Password" />
+  </FloatingLabel>
       </Col>
 
       <Col className=" customer_register_form">
-        <FloatingLabel
-          controlId="floatingInput"
-          label="Customer Name"
-          className="mb-3"
-        >
-          <Form.Control type="text" placeholder="name@example.com" />
-        </FloatingLabel>
-        <FloatingLabel controlId="floatingPassword" label="Email ID"       className="mb-3"
-        >
-          <Form.Control type="email" placeholder="Password" />
-        </FloatingLabel>
-        <FloatingLabel
-        controlId="floatingPassword"
-        label="Contact"
-        className="mb-3"
-      >
-        <Form.Control type="text" placeholder="Password" />
-      </FloatingLabel>
-      <FloatingLabel
-        controlId="floatingPassword"
-        label="Password"
-        className="mb-3"
-      >
-        <Form.Control type="password" placeholder="Password" />
-      </FloatingLabel>
+       
       <FloatingLabel
         controlId="floatingPassword"
         label="Conform Password"
@@ -80,7 +76,7 @@ function CustomerRegistration() {
     >
       <Form.Control type="text" placeholder="name@example.com" />
     </FloatingLabel>
-        <button onClick={registerHandled} className="btn btn-dark mt-5"> Register</button>
+        <button onClick={registerHandled} className="btn btn-dark mt-2"> Register</button>
 
       </Col>
     </Row>

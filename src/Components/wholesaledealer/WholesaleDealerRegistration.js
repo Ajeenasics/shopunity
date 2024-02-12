@@ -37,22 +37,14 @@ function WholesaleDealerRegistration() {
     //     } else {
     navigate("/wholesaledealerlogin");
     // };
-  };    console.log(wholesaleDealerRegister);
-
+  };
+  console.log(wholesaleDealerRegister);
 
   return (
     <div className="Wholesale_dealer_register p-5">
-      <h5 className="text-center">Wholesale dealer register</h5>
+      <h5 className="text-center mt-5">Wholesale dealer register</h5>
       <Container>
         <Row className="wholesale_dealer_register_main">
-          <Col>
-            <img
-              className="w-100 mt-5"
-              src="https://static.vecteezy.com/system/resources/previews/022/650/933/non_2x/mix-icon-for-wholesale-vector.jpg"
-              alt="no img"
-            ></img>
-          </Col>
-
           <Col className=" wholesale_dealer_register_form">
             <FloatingLabel
               controlId="floatingInput"
@@ -132,10 +124,13 @@ function WholesaleDealerRegistration() {
                 required
               />
             </FloatingLabel>
-            <button onClick={registerHandled} className="btn btn-dark mt-5">
+            <button onClick={registerHandled} className="btn btn-dark mt-2">
               {" "}
               Register
             </button>
+          </Col>
+          <Col>
+          
           </Col>
         </Row>
       </Container>
