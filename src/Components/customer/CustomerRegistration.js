@@ -5,7 +5,6 @@ import Col from "react-bootstrap/Col";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
 import './customer.css'
-import img from '../../images/customer (2).png'
 import { useNavigate } from 'react-router-dom';
 function CustomerRegistration() {
   const navigate=useNavigate()

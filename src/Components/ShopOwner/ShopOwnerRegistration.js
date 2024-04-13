@@ -5,7 +5,6 @@ import Col from "react-bootstrap/Col";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
 import "./shopowner.css";
-import img from "../../images/shop owner.png";
 import { useNavigate } from "react-router-dom";
 function ShopOwnerRegistration() {
   const navigate = useNavigate();

@@ -20,7 +20,7 @@ const Customer=()=>{
     <Navbar collapseOnSelect expand="lg" className="" id="navfixed">
     <div className="col-9">
       <Navbar.Brand href="/" className="toggleimg">
-        <img src={logoimg} className="w-25" alt="img"></img>
+        <img src={logoimg} className="w-25 m-2" alt="img"></img>
       </Navbar.Brand>
     </div>
     <div className="col-2">

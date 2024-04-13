@@ -5,7 +5,6 @@ import Col from "react-bootstrap/Col";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
 import "./wholesale.css";
-import img from "../../images/wholesale2.png";
 import { Link } from "react-router-dom";
 
 function WholesaleDealerLogin() {

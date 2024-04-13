@@ -5,7 +5,6 @@ import Col from "react-bootstrap/Col";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
 import './shopowner.css'
-import img from '../../images/store2.png'
 import { Link } from 'react-router-dom';                       
 function ShopOwnerLogin() {
   return (

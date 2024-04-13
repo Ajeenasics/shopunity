@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
-import img from "../../images/Admin.png";
 import "./Admin.css";
 import { Link } from "react-router-dom";
 
