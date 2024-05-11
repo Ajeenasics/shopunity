@@ -1,0 +1,35 @@
+.shop_register_main{
+    padding: 2%;
+    margin: 5%;
+    
+
+  }
+  .shop_register_form{
+      padding: 2%;
+      margin: 0 8%;
+  }
+  .shop_register_main img{
+    margin-top: 30%;
+  }
+  .shop_register{
+    background-image:url("../../images/shopowner2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+    padding-top: 5%;
+  }
+  .shop_login{
+    padding-top: 5%;
+    background-image:url("../../images/shopowner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .shop_login_main{
+    padding:12% 2%;
+    margin: 5%;
+  }
+  .shop_login_form{
+    padding: 2%;
+    margin: 0 8%;
+  }
+  
+  
